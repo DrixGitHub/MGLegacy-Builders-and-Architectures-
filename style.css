@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Hero Section */
+.section-hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.856),
+      rgba(255, 255, 255, 0)
+    ),
+    url(Images/Stock/building-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.8rem;
+}
+.hero-blank {
+  width: 100%;
+}
+
+.heading-primary {
+  font-size: 10.8rem;
+  letter-spacing: -0.1rem;
+  color: rgba(255, 255, 255, 0.897);
+}
+.heading-primary-2 {
+  color: #d29819;
+}
+.hero-description {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-left: 0.7rem;
+  color: #c4c4c4;
+  margin-top: -1rem;
+}
+.btn {
+  padding: 1.6rem 3.2rem;
+  background-color: #d29819;
+
+  transition: all 0.3s;
+}
+.btn:link,
+.btn:visited {
+  background-color: #d29819;
+}
+.btn:hover,
+.btn:active {
+  background-color: #dbad47;
+  color: #333;
+}
+
+.btn-1 {
+  display: inline-block;
+  align-self: flex-start;
+  margin-left: 0.7rem;
+
+  color: #000;
+  text-decoration: none;
+
+  font-size: 1.8rem;
+}
