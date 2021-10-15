@@ -36,7 +36,7 @@ body {
 }
 
 .grid-4-cols {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 2fr 1.5fr 1fr 1fr;
 }
 
 .center {
@@ -120,7 +120,7 @@ body {
       rgba(0, 0, 0, 0.856),
       rgba(255, 255, 255, 0)
     ),
-    url(Images/Stock/owen-lystrup-boLgiM0qwkg-unsplash.jpg);
+    url(Images/Stock/owen-lystrup-boLgiM0qwkg-unsplash.webp);
   background-size: cover;
   height: 100vh;
 
@@ -241,7 +241,7 @@ body {
 
 .section-project {
   background-image: linear-gradient(#1a1a1ae1, #333333e1),
-    url(Images/Stock/donny-jiang-42gFAgdIUC8-unsplash.jpg);
+    url(Images/Stock/donny-jiang-42gFAgdIUC8-unsplash.webp);
   background-size: 170rem 450rem;
 
   padding: 9.6rem 2rem;
@@ -275,12 +275,12 @@ body {
   margin-bottom: 3rem;
 }
 .project-image {
-  height: 55rem;
-  width: 45rem;
+  height: 98%;
+  width: 87%;
 }
 .project-list {
   font-family: "Libre Baskerville", sans-serif;
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: #fff;
 
   list-style: none;
@@ -345,4 +345,93 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+/* Partners Section */
+
+.section-partners {
+  background-color: #ebebeb;
+}
+
+.partners {
+  max-width: 150rem;
+  margin: 0 auto;
+
+  padding: 4rem 3.6rem;
+}
+
+.partner-text {
+  text-align: center;
+  padding: 1rem 0 4rem 0;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  filter: brightness(0);
+  opacity: 50%;
+}
+
+.logos img {
+  height: 7%;
+  width: 16%;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #000;
+}
+.footer-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #d29819;
+}
+.footer-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logo-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  height: 6rem;
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: auto;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-text {
+  font-family: "Libre Baskerville", sans-serif;
+}
+.footer-text:link,
+.footer-text:visited {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+.footer-text:hover,
+.footer-text:active {
+  color: #b3b3b3;
 }
