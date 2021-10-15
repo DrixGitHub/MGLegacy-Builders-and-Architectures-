@@ -26,7 +26,7 @@
         <a href="#">
           <img
             class="logo"
-            src="Images/Logo/MGL Logo.png"
+            src="Images/Logo/MGL Logo.webp"
             alt="MG Legacy Logo"
           />
         </a>
@@ -42,7 +42,11 @@
       </nav>
 
       <section class="section-hero">
-        <div class="hero">
+        <div
+          class="hero"
+          role="img"
+          aria-label="Image of Buildings and Construction"
+        >
           <div class="hero-text-box">
             <h1 class="heading-primary">
               BUILDING <span class="heading-primary-2">BEYOND BETTER</span>
@@ -52,7 +56,7 @@
               we bring out beauty and value in every project we do. That's
               redefining your quality construction experience.
             </p>
-            <a href="#" class="btn btn-1">Let's go</a>
+            <a href="#" class="btn btn-1">Build</a>
           </div>
           <div class="hero-blank"></div>
         </div>
@@ -564,68 +568,86 @@
 
     <section class="section-partners">
       <div class="partners">
-        <h3 class="partner-text title">Who trusted us?</h3>
+        <h3 class="partner-text title">Who we worked with?</h3>
         <div class="logos">
-          <img src="Images/Partners/rockwellland logo.webp" />
+          <img
+            src="Images/Partners/rockwellland logo.webp"
+            alt="Image of Rockwell land logo"
+          />
 
-          <img src="Images/Partners/theGrooveRockwell.webp" />
+          <img
+            src="Images/Partners/theGrooveRockwell.webp"
+            alt="Image of The Grove by Rockwell logo"
+          />
 
-          <img src="Images/Partners/ust hospital-2.webp" />
+          <img
+            src="Images/Partners/ust hospital-2.webp"
+            alt="Image of Ust Hospital logo"
+          />
 
           <img
             src="Images/Partners/asian hospital and medical center(1).webp"
+            alt="Image of Asian Hospital and medical center logo"
           />
 
-          <img src="Images/Partners/Proscenium-at-Rockwell-Gold.webp" />
+          <img
+            src="Images/Partners/Proscenium-at-Rockwell-Gold.webp"
+            alt="Image of Proscenium at rockwell logo"
+          />
         </div>
       </div>
     </section>
 
-    <section class="section-form">
-      <div class="form">
-        <h3>Get in Touch</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, sit
-          voluptatem officia optio porro, quis obcaecati aperiam suscipit in
-          iste sint minus error inventore? Nobis cupiditate modi quas ratione
-          quam.
-        </p>
-        <form action="https://formsubmit.co/drixler@ymail.com" method="POST">
-          <div class="form-fill">
-            <div class="form-text">
-              <div class="form-input">
-                <input
+    <section class="section-cta">
+      <div class="cta-container">
+        <div class="cta">
+          <div class="cta-text">
+            <h3 class="heading-secondary cta-heading">Build your vision</h3>
+            <p class="cta-text-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              pariatur cum deleniti porro quaerat, consequuntur fugiat omnis,
+              quas at itaque, obcaecati vel doloribus eius asperiores eum
+              corporis facere quasi laborum? Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Illum pariatur cum deleniti porro
+              quaerat, consequuntur fugiat omnis, quas at itaque, obcaecati vel
+              doloribus eius asperiores eum corporis facere quasi laborum?
+            </p>
+
+            <form
+              class="section-form"
+              action="https://formsubmit.co/drixler@ymail.com"
+              method="POST"
+            >
+              <div class="cta-infos">
+                <!-- <input
+                  class="cta-info"
                   type="text"
                   name="name"
-                  class="form-control"
                   placeholder="Full Name"
                   required
-                />
-              </div>
-              <div class="form-input">
+                /> -->
                 <input
+                  class="cta-info"
                   type="email"
                   name="email"
-                  class="form-control"
                   placeholder="Email Address"
                   required
                 />
+
+                <!-- <div>
+                  <textarea
+                  placeholder="Message"
+                  class="message"
+                  rows="10"
+                  name="message"
+                  ></textarea>
+                </div> -->
+
+                <button type="submit" class="cta-btn">Learn More</button>
               </div>
-            </div>
-            <div class="form-text">
-              <textarea
-                placeholder="Your Message"
-                class="form-control"
-                name="message"
-                rows="10"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn-lg btn-dark btn-block">
-              Submit Form
-            </button>
+            </form>
           </div>
-        </form>
+        </div>
       </div>
     </section>
 
@@ -635,7 +657,7 @@
           <a href="#">
             <img
               class="footer-logo"
-              src="Images/Logo/MGL Logo.png"
+              src="Images/Logo/MGL Logo.webp"
               alt="MG Legacy Logo"
             />
           </a>
