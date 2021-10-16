@@ -28,10 +28,12 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
+    <script defer src="script.js"></script>
+
     <title>MG Legacy</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header nav-open">
       <nav class="nav">
         <a href="#">
           <img
@@ -43,10 +45,10 @@
         <div class="navigation">
           <ul class="navigation-btn">
             <li><a class="nav-btn" href="#">Home</a></li>
-            <li><a class="nav-btn" href="#">What we do?</a></li>
-            <li><a class="nav-btn" href="#">Projects</a></li>
-            <li><a class="nav-btn" href="#">About Us</a></li>
-            <li><a class="nav-btn" href="#">Contact</a></li>
+            <li><a class="nav-btn" href="#what-we-do">What we do?</a></li>
+            <li><a class="nav-btn" href="#projects">Projects</a></li>
+            <li><a class="nav-btn" href="#about">About Us</a></li>
+            <li><a class="nav-btn" href="#cta">Contact</a></li>
           </ul>
         </div>
 
@@ -78,7 +80,7 @@
       </section>
     </header>
 
-    <section class="section-what-we-do">
+    <section class="section-what-we-do" id="what-we-do">
       <div class="what-we-do container">
         <span class="title">What we do?</span>
         <h2 class="heading-secondary">Our History</h2>
@@ -384,7 +386,7 @@
       </div>
     </section>
 
-    <section class="section-project">
+    <section class="section-project" id="projects">
       <span class="project-title title">How we work?</span>
       <h2 class="heading-secondary secondary-title">Projects</h2>
 
@@ -479,7 +481,7 @@
       </div>
     </section>
 
-    <section class="section-about-us">
+    <section class="section-about-us" id="about">
       <div class="about-us container">
         <span class="about-us-title title">How we work?</span>
         <h2 class="heading-secondary about-us-text">About us</h2>
@@ -514,7 +516,7 @@
 
     <section class="section-goals">
       <div class="goals grid grid-3-cols">
-        <div class="mission">
+        <div class="mission" id="mission">
           <h3 class="mission-title">Mission</h3>
           <ul class="mission-text">
             <li>
@@ -539,7 +541,7 @@
           </ul>
         </div>
 
-        <div class="mission">
+        <div class="mission" id="vision">
           <h3 class="mission-title">Vision</h3>
           <ul class="mission-text">
             <li>
@@ -568,7 +570,7 @@
           </ul>
         </div>
 
-        <div class="mission">
+        <div class="mission" id="principles">
           <h3 class="mission-title">Principles</h3>
           <ul class="mission-text">
             <li>
@@ -613,7 +615,7 @@
       </div>
     </section>
 
-    <section class="section-cta">
+    <section class="section-cta" id="cta">
       <div class="cta-container">
         <div class="cta">
           <div class="cta-text">
@@ -678,7 +680,8 @@
           </a>
 
           <p class="copyright">
-            Copyright &copy; 2021 MG Legacy Builder and Architectures
+            Copyright &copy; <span class="year">2021</span> MG Legacy Builder
+            and Architectures
           </p>
         </div>
         <div class="contact-link">
@@ -695,19 +698,19 @@
         <div class="nav-link">
           <p class="footer-heading">Company</p>
           <ul class="footer-list">
-            <li><a class="footer-text" href="#">About us</a></li>
-            <li><a class="footer-text" href="#">Mission</a></li>
-            <li><a class="footer-text" href="#">Vision</a></li>
-            <li><a class="footer-text" href="#">Principles</a></li>
+            <li><a class="footer-text" href="#about">About us</a></li>
+            <li><a class="footer-text" href="#mission">Mission</a></li>
+            <li><a class="footer-text" href="#vision">Vision</a></li>
+            <li><a class="footer-text" href="#principles">Principles</a></li>
           </ul>
         </div>
         <div class="nav-link">
           <p class="footer-heading">Help</p>
           <ul class="footer-list">
-            <li><a class="footer-text" href="#">Questions</a></li>
-            <li><a class="footer-text" href="#">Careers</a></li>
+            <li><a class="footer-text" href="#cta">Questions</a></li>
+            <li><a class="footer-text" href="#cta">Careers</a></li>
             <li>
-              <a class="footer-text" href="#">Privacy & Terms</a>
+              <a class="footer-text" href="#cta">Privacy & Terms</a>
             </li>
           </ul>
         </div>
