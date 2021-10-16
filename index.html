@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +18,15 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
     <title>MG Legacy</title>
   </head>
@@ -39,6 +49,11 @@
             <li><a class="nav-btn" href="#">Contact</a></li>
           </ul>
         </div>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </nav>
 
       <section class="section-hero">
@@ -56,7 +71,7 @@
               we bring out beauty and value in every project we do. That's
               redefining your quality construction experience.
             </p>
-            <a href="#" class="btn btn-1">Build</a>
+            <a href="#" class="btn btn-1">Let's go</a>
           </div>
           <div class="hero-blank"></div>
         </div>
@@ -83,7 +98,7 @@
         <div class="card-text grid grid-3-cols">
           <div>
             <svg
-              class="icons"
+              class="icons icons-2"
               alt="Designing Icon"
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -118,7 +133,7 @@
               </g>
             </svg>
             <p class="history-title">Designs</p>
-            <p class="history-text">
+            <p class="history-text margin-text">
               Designs from conceptualization to detailing with the use of the
               world's famous Computer Aided Design Software, AutoCAD, Revit
               Building, Revit architecture adipisicing TABS AND STAAD PRO
@@ -129,7 +144,7 @@
 
           <div>
             <svg
-              class="icons icons-2"
+              class="icons icons-2 margin"
               alt="Management icon"
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -297,7 +312,7 @@
               </g>
             </svg>
             <p class="history-title">Management</p>
-            <p class="history-text">
+            <p class="history-text margin-text">
               Provides technical and expertise in civil, architectural,
               sanitary, electrical and mechanical works for bulding various
               types of structures. Overseeing construction of building
@@ -308,7 +323,7 @@
 
           <div>
             <svg
-              class="icons"
+              class="icons icons-2"
               alt="Time Icon"
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -374,7 +389,7 @@
       <h2 class="heading-secondary secondary-title">Projects</h2>
 
       <div class="project grid grid-2-cols">
-        <div class="project-texts">
+        <div class="text project-texts">
           <p class="project-description">The Grove by Rockwell</p>
           <ul class="project-list">
             <li>Two 24-Storey Condominiums</li>
@@ -395,7 +410,7 @@
           src="Images/Projects/proscenium-residences-rockwell-building-feature.webp"
           alt="Picture of The Proscenium Residences at Rockwell"
         />
-        <div class="project-texts">
+        <div class="project-texts text-1">
           <p class="project-description">The Proscenium at Rockwell</p>
           <ul class="project-list">
             <li>One 45-Storey Condominium</li>
@@ -424,7 +439,7 @@
           src="Images/Projects/roxkwell business center 2.webp"
           alt="Picture of Business Center"
         />
-        <div class="project-texts">
+        <div class="project-texts text-2">
           <p class="project-description">Rockwell Business Center</p>
           <ul class="project-list">
             <li>14-Storey Commercial Building</li>
@@ -449,7 +464,7 @@
           src="Images/Projects/Picture_3_MTR___PET_plant_Kaliningrad__Russia_Alco-Naphtha.webp"
           alt="Picture of Production Plant"
         />
-        <div class="project-texts">
+        <div class="project-texts text-3">
           <p class="project-description">SAFI masterplant</p>
           <ul class="project-list">
             <li>Vinegar Production Line</li>

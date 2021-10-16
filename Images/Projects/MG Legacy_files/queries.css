@@ -1,0 +1,166 @@
+/* 1408 px */
+
+@media (max-width: 88em) {
+  .hero {
+    max-width: 120rem;
+  }
+  .hero-description {
+    font-size: 1.9rem;
+  }
+  .hero {
+    max-width: 110rem;
+  }
+  .cta-container {
+    max-width: 120rem;
+  }
+  .goals.grid {
+    gap: 4.8rem;
+  }
+}
+
+/* 1300px
+
+@media (max-width: 82em) {
+} */
+
+/* 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .container {
+    max-width: 110rem;
+  }
+
+  .heading-primary {
+    font-size: 10rem;
+    line-height: 9rem;
+  }
+
+  .goals {
+    max-width: 130rem;
+  }
+  .partners {
+    max-width: 130rem;
+  }
+  .cta-container {
+    max-width: 110rem;
+  }
+  .cta-text-p {
+    font-size: 1.5rem;
+  }
+  .cta-info {
+    height: 30%;
+  }
+  .cta-btn {
+    width: 17%;
+    padding: 0.7rem 1rem;
+  }
+  .footer-text:link,
+  .footer-text:visited {
+    font-size: 1.4rem;
+  }
+  .goals.grid {
+    gap: 4.8rem;
+  }
+  .card-text.grid {
+    gap: 7.4rem;
+  }
+  .navigation-btn {
+    gap: 0;
+  }
+  
+
+/* 864px */
+@media (max-width: 54em) {
+  html {
+    font-size: 50%;
+  }
+  .card-text.grid {
+    grid-template-columns: 1fr;
+    
+  }
+  .goals.grid {
+    grid-template-columns: 1fr;
+  }
+  .navigation-btn {
+    gap: 0;
+  }
+  .cta-btn {
+    font-size: 1.3rem;
+  }
+  .cta-text{
+    padding: 6.4rem;
+  }
+  
+  /* Mobile Nav */
+  .btn-mobile-nav {
+    display: block;
+  }
+  .navigation{
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .navigation-btn{
+    flex-direction: column;
+    gap: 8rem;
+    align-items: center;
+  }
+  .nav-btn{
+    font-size: 3.6rem;
+    color: #d29819;
+  }
+  .nav-open .navigation{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  
+}
+
+@media (max-width: 47em) {
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid-4-cols {
+    grid-template-columns: 1.5fr 1.5fr;
+  }
+  .nav-link{
+    grid-row: 1;
+  }
+  
+  .project-image {
+    height: 80%;
+    width: 100%;
+  }
+  .text-1{
+    grid-row: 3;
+  }
+  .text-2 {
+    grid-row: 7;
+  }
+  .text-3 {
+    grid-row: 11;
+  }
+}
