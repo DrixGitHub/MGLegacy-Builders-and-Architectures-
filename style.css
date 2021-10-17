@@ -124,7 +124,8 @@ body {
     ),
     url(Images/Stock/owen-lystrup-boLgiM0qwkg-unsplash.webp);
   background-size: cover;
-  height: 100vh;
+  height: 100%;
+  width: 100vw;
 
   display: flex;
   flex-direction: column;
