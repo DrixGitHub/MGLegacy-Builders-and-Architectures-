@@ -435,7 +435,7 @@ body {
 }
 
 .cta-text {
-  background-image: linear-gradient(#1a1a1a48, #111), url(Images/Stock/bg.webp);
+  background-image: linear-gradient(#0000008a, #111), url(Images/Stock/bg.webp);
   background-size: cover;
   background-position: left;
   padding: 9.6rem 7.4rem 9.6rem 7.4rem;
@@ -451,6 +451,7 @@ body {
   font-size: 1.7rem;
   font-family: "Libre Baskerville", sans-serif;
   font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 3rem;
 }
 
