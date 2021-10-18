@@ -141,6 +141,7 @@ Problem: query not applying on fb in app browser causing broken sections of webs
   }
 }
 
+/* 752px */
 @media (max-width: 47em) {
   .grid-2-cols {
     grid-template-columns: 1fr;
