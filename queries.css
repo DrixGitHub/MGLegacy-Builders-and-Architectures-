@@ -1,7 +1,7 @@
 /* 1408 px */
 
 @media (max-width: 88em) {
-  .hero {
+  /* .hero {
     max-width: 120rem;
   }
   .hero-description {
@@ -15,85 +15,92 @@
   }
   .goals.grid {
     gap: 4.8rem;
+  }*/
+  .hero {
+    padding: 0 6rem;
   }
 }
 
-/* 1300px
-
-@media (max-width: 82em) {
-} */
-
-/* 1200px */
 @media (max-width: 75em) {
-  html {
-    font-size: 56.25%;
+  .hero {
+    padding: 0 7.2rem;
   }
   .container {
-    max-width: 110rem;
+    padding: 9.6rem 6.4rem;
   }
-
-  .heading-primary {
-    font-size: 10rem;
-    line-height: 9rem;
-  }
-
   .goals {
-    max-width: 130rem;
+    padding: 0 3.6rem 3.6rem 3.6rem;
   }
-  .partners {
-    max-width: 130rem;
+  .grid.goals {
+    gap: 3.2rem;
   }
   .cta-container {
-    max-width: 110rem;
-  }
-  .cta-text-p {
-    font-size: 1.5rem;
-  }
-  .cta-info {
-    height: 30%;
-  }
-  .cta-btn {
-    width: 17%;
-    padding: 0.7rem 1rem;
-  }
-  .footer-text:link,
-  .footer-text:visited {
-    font-size: 1.4rem;
-  }
-  .goals.grid {
-    gap: 4.8rem;
-  }
-  .card-text.grid {
-    gap: 7.4rem;
-  }
-  .navigation-btn {
-    gap: 0;
+    padding: 6.4rem;
   }
 }
 
-/* Debug starts 
-Problem: query not applying on fb in app browser causing broken sections of website
-*/
-
-/* 864px */
-@media (max-width: 54em) {
+@media (max-width: 66em) {
   html {
-    font-size: 50%;
+    font-size: 52.25%;
   }
-  .card-text.grid {
+}
+
+@media (max-width: 56.25em) {
+  .hero {
+    padding: 0 3.2rem;
+  }
+  .grid-3-cols {
     grid-template-columns: 1fr;
   }
-  .goals.grid {
-    grid-template-columns: 1fr;
+  .grid.card-text {
+    gap: 4.8rem;
   }
-  .navigation-btn {
-    gap: 0;
+  .grid-4-cols {
+    grid-template-columns: 1.5fr 1.5fr;
   }
-  .cta-btn {
-    font-size: 1.3rem;
+  .nav-link {
+    grid-row: 1;
+  }
+  .cta-container {
+    padding: 4.8rem 9.6rem 9.6rem;
   }
   .cta-text {
-    padding: 6.4rem;
+    padding: 4.8rem;
+  }
+  .cta-info {
+    width: 60%;
+  }
+  .cta-btn {
+    width: 23%;
+  }
+  .partners {
+    padding: 4.8rem;
+  }
+  .logos img {
+    height: 10%;
+    width: 17.5%;
+  }
+  .grid-2-cols {
+    grid-template-columns: 2fr;
+  }
+  .text {
+    margin-top: 0;
+  }
+  .text-1 {
+    grid-row: 3;
+  }
+  .text-2 {
+    grid-row: 7;
+  }
+  .text-3 {
+    grid-row: 11;
+  }
+  .grid.project {
+    gap: 4.8rem;
+  }
+  .project-image {
+    height: 100%;
+    width: 100%;
   }
 
   /* Mobile Nav */
@@ -120,11 +127,13 @@ Problem: query not applying on fb in app browser causing broken sections of webs
   }
   .navigation-btn {
     flex-direction: column;
-    gap: 8rem;
+    gap: 4rem;
+    /* gap 8rem */
     align-items: center;
   }
   .nav-btn {
-    font-size: 3.6rem;
+    font-size: 2.4rem;
+    /* font 3.8rem */
     color: #d29819;
   }
   .nav-open .navigation {
@@ -141,76 +150,16 @@ Problem: query not applying on fb in app browser causing broken sections of webs
   }
 }
 
-/* 752px */
-@media (max-width: 47em) {
-  .grid-2-cols {
-    grid-template-columns: 1fr;
+@media (max-width: 44em) {
+  html {
+    font-size: 50%;
   }
-  .grid-4-cols {
-    grid-template-columns: 1.5fr 1.5fr;
-  }
-  .nav-link {
-    grid-row: 1;
-  }
-
-  /* .project-image {
-    height: 80%;
-    width: 100%;
-  } */
-  .text {
-    margin-top: 0;
-  }
-  .text-1 {
-    grid-row: 3;
-  }
-  .text-2 {
-    grid-row: 7;
-  }
-  .text-3 {
-    grid-row: 11;
-  }
-  .project-texts {
-    margin-bottom: -12rem;
-    margin-bottom: -5rem;
-  }
-  .cta-info {
-    width: 60%;
-  }
-  .cta-btn {
-    width: 28%;
-  }
-  .heading-description,
-  .history-text,
-  .mission-text,
-  .cta-text-p {
-    font-size: 1.4rem;
+  .heading-primary {
+    font-size: 10rem;
+    line-height: 0.9;
   }
   .heading-secondary {
     font-size: 3.2rem;
-  }
-  .footer.container {
-    padding: 3.2rem 2.4rem;
-  }
-
-  .project-description {
-    font-size: 2.8rem;
-  }
-
-  .project-list {
-    font-size: 1.6rem;
-  }
-}
-
-@media (max-width: 30em) {
-  .heading-primary {
-    font-size: 7rem;
-    line-height: 6.5rem;
-  }
-  .hero-description {
-    font-size: 1.4rem;
-  }
-  .grid-4-cols {
-    grid-template-columns: 1fr;
   }
   .footer .grid {
     display: flex;
@@ -218,17 +167,58 @@ Problem: query not applying on fb in app browser causing broken sections of webs
     padding: 9.6rem 3.2rem;
   }
   .project {
-    padding: 9.6rem 3.2rem 2rem 3.2rem;
+    padding: 9.6rem 4rem 2rem 4rem;
+  }
+  /* .project-description {
+    font-size: 2.4rem;
+  } */
+  .project-list {
+    font-size: 1.7rem;
+  }
+  .cta-container {
+    padding: 3.2rem 3.2rem 9.6rem 3.2rem;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .heading-primary {
+    font-size: 8rem;
+  }
+  .hero-description {
+    font-size: 1.7rem;
+  }
+  .project-description {
+    font-size: 2.4rem;
+  }
+  .cta-infos {
+    flex-direction: column;
+    gap: 2rem;
   }
   .cta-info {
     width: 100%;
   }
   .cta-btn {
-    width: 40%;
-    padding: 1.5rem 1rem;
+    width: 100%;
   }
-  .cta-infos {
-    flex-direction: column;
-    gap: 1rem;
+  .cta-text {
+    padding: 6.4rem;
+  }
+  .cta-btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 45%;
+  }
+  .heading-primary {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 13em) {
+  html {
+    font-size: 35%;
   }
 }
