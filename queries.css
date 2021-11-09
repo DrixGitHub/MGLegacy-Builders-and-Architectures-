@@ -178,6 +178,52 @@
   .cta-container {
     padding: 3.2rem 3.2rem 9.6rem 3.2rem;
   }
+  .btn-1 {
+    justify-self: flex-start;
+  }
+  .hero-text-box {
+    display: grid;
+    gap: 1.2rem;
+  }
+  .what-we-do {
+    display: grid;
+    gap: 2rem;
+  }
+  .philosophy {
+    display: grid;
+    gap: 2rem;
+  }
+  .about-us {
+    display: grid;
+    gap: 2rem;
+  }
+  .cta-infos {
+    display: grid;
+    column-gap: 2rem;
+  }
+  .footer-contact {
+    display: grid;
+    gap: 1rem;
+  }
+  .footer-list {
+    display: grid;
+    gap: 2.5rem;
+  }
+  .navigation-btn {
+    gap: 0;
+  }
+  .navigation-btn li {
+    margin-bottom: 4rem;
+  }
+  .grid.grid-4-cols {
+    gap: 0;
+  }
+  .nav-link {
+    margin-bottom: 9.6rem;
+  }
+  .contact-link {
+    margin-bottom: 9.6rem;
+  }
 }
 
 @media (max-width: 31.25em) {
